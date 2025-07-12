@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krish Dubey | Developer & Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #141E30, #243B55);
+      color: #fff;
+      padding: 40px;
+    }
+    .contact-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.07);
+      border: 2px solid #00fff3;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px rgba(0,255,243,0.3);
+    }
+    .contact-header img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00fff3;
+      box-shadow: 0 0 10px rgba(0,255,243,0.4);
+      margin-bottom: 15px;
+    }
+    .contact-header h1 {
+      font-size: 2.7rem;
+      margin-bottom: 10px;
+      color: #00fff3;
+    }
+    .contact-header p {
+      font-size: 1.1rem;
+      margin: 5px 0;
+    }
+    .contact-header a {
+      color: #00fff3;
+      text-decoration: none;
+    }
+    .linkedin-btn {
+      background:#00fff3;
+      color:#141E30;
+      padding:10px 18px;
+      border-radius:8px;
+      font-weight:600;
+      text-decoration:none;
+      box-shadow:0 0 10px rgba(0,255,243,0.3);
+      margin-top:10px;
+      display:inline-block;
+    }
+    section {
+      margin-bottom: 40px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #00fff3;
+      margin-bottom: 10px;
+    }
+    ul li {
+      margin-bottom: 6px;
+    }
+    .skill-bar {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+    }
+    .bar {
+      width: 100%;
+      height: 8px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-left: 10px;
+    }
+    .fill {
+      height: 100%;
+      background: #00fff3;
+    }
+    .project-preview img {
+      width: 280px;
+      border-radius: 10px;
+      margin: 10px 0;
+      box-shadow: 0 0 8px rgba(0,255,243,0.2);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.6;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-header">
+    <img src="krish.jpg" alt="Krish Dubey Photo" />
+    <h1>KRISH DUBEY 👨‍💻</h1>
+    <p><strong>📧 Email:</strong> <a href="mailto:krishdubey2806@gmail.com">krishdubey2806@gmail.com</a></p>
+    <p><strong>📞 Phone:</strong> <a href="tel:+916306381167">6306381167</a></p>
+    <p><strong>💼 Role:</strong> Developer | Designer | AI Enthusiast</p>
+    <a href="https://www.linkedin.com/in/krish-dubey-b66172326/" target="_blank" class="linkedin-btn" style="
+  background:#0077b5;
+  color:#fff;
+  padding:10px 18px;
+  border-radius:8px;
+  font-weight:600;
+  text-decoration:none;
+  box-shadow:0 0 10px rgba(0,119,181,0.4);
+  margin-top:10px;
+  display:inline-block;">🔗 Connect on LinkedIn</a>
+  </div>
+
+  <section>
+    <h2>🔧 Skills</h2>
+    <div class="skill-bar">
+      <span>HTML, CSS, JavaScript</span>
+      <div class="bar"><div class="fill" style="width: 95%;"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>Python Language</span>
+      <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill-bar">
+      <span>AI Chatbot Development</span>
+      <div class="bar"><div class="fill" style="width: 95%;"></div></div>
+    </div>
+  </section>
+
+  <section class="project-preview">
+    <h2>🚀 Projects</h2>
+
+    <div style="margin-bottom: 30px;">
+      <h3>🕵️ Crime Risk Prediction Bot</h3>
+      <img src="crime.png" alt="Crime Risk Bot" />
+      <p>A predictive tool that calculates crime risk using gender, profession, district, and time inputs—powered by Flask & Pandas.</p>
+    </div>
+
+    <div style="margin-bottom: 30px;">
+      <h3>🌤️ Weather Forecast App</h3>
+      <img src="weather.png" alt="Weather Forecast App" />
+      <p>A responsive weather app delivering real-time updates with smooth UI elements and atmospheric design vibes.</p>
+    </div>
+
+    <div>
+      <h3>❌ Tic Tac Toe Game</h3>
+      <img src="tictactoe.png" alt="Tic Tac Toe Game" />
+      <p>A fun JavaScript game with clean logic, stylish moves, and dynamic game-over animations.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🎨 Design Philosophy</h2>
+    <p>I believe design should do more than look pretty—it should feel intuitive, immersive, and emotionally engaging. My approach combines gradient-rich aesthetics, seamless responsiveness, and subtle animations that guide the user experience with purpose and elegance.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 KRISH DUBEY. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
